@@ -1338,39 +1338,4 @@ img {
 
 
 
-/* Responsive Design */
-@media (max-width: 768px) {
 
-  .container {
-    width: 95%;
-    padding: 10px;
-  }
-
-  nav {
-    flex-wrap: wrap;
-  }
-
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero img {
-    width: 100%;
-    height: auto;
-  }
-
-  .products,
-  .services,
-  .tracking-grid {
-    grid-template-columns: 1fr;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  button {
-    width: 100%;
-  }
-}
